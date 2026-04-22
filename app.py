@@ -472,13 +472,7 @@ st.sidebar.write("טקסט בסרגל")""")
 
     st.markdown("---")
 
-    # Container
-    st.markdown("#### `st.container()` — מיכל")
-    show_code("""with st.container():
-    st.write("הכל בתוך המיכל")
-    st.button("כפתור")
 
-st.write("זה כבר מחוץ למיכל")""")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
