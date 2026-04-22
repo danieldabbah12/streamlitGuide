@@ -697,32 +697,5 @@ font               = "sans serif"   # "serif" / "monospace\"""")
 
     st.markdown("---")
 
-    # st.columns with custom HTML
-    st.markdown("#### כרטיסים עם HTML")
-    show_code("""cols = st.columns(3)
-items = [
-    ("🚀", "מהיר",   "בניה בדקות"),
-    ("🎨", "יפה",    "עיצוב קל"),
-    ("🔌", "מחובר",  "API בשניות"),
-]
-for col, (icon, title, desc) in zip(cols, items):
-    col.markdown(f\"\"\"
-    <div style="border:1px solid #ddd; border-radius:10px;
-                padding:1rem; text-align:center;">
-        <h2>{icon}</h2>
-        <b>{title}</b><br>{desc}
-    </div>
-    \"\"\", unsafe_allow_html=True)""")
 
-    cols = st.columns(3)
-    items = [("🚀", "מהיר", "בניה בדקות"), ("🎨", "יפה", "עיצוב קל"), ("🔌", "מחובר", "API בשניות")]
-    for col, (icon, title, desc) in zip(cols, items):
-        col.markdown(f"""
-<div style="border:1px solid #ddd; border-radius:10px; padding:1rem; text-align:center; background:#fafafa;">
-    <h2>{icon}</h2>
-    <b>{title}</b><br><small>{desc}</small>
-</div>
-""", unsafe_allow_html=True)
-
-    st.markdown("---")
 
