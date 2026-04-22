@@ -175,40 +175,9 @@ st.subheader("כותרת בינונית")""")
 
     st.markdown("---")
 
-    # st.write
-    st.markdown("#### `st.write()` — הכי גמיש!")
-    show_code("""st.write("טקסט רגיל")
-st.write("תומך **bold** ו-*italic* בסגנון Markdown")
-st.write(42)          # מספרים
-st.write([1, 2, 3])   # רשימות
-st.write({"a": 1})    # מילונים""")
-    st.write("טקסט רגיל")
-    st.write("תומך **bold** ו-*italic* בסגנון Markdown")
-    st.write(42)
-    st.write([1, 2, 3])
+  
 
-    st.markdown("---")
-
-    # st.markdown
-    st.markdown("#### `st.markdown()` — Markdown מלא")
-    show_code("""st.markdown(\"\"\"
-## כותרת
-- פריט 1
-- פריט 2
-
-> ציטוט מעניין
-
-`קוד inline`
-\"\"\")""")
-    st.markdown("""
-## כותרת
-- פריט 1
-- פריט 2
-
-> ציטוט מעניין
-
-`קוד inline`
-""")
+   
 
     st.markdown("---")
 
