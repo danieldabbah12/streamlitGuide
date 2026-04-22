@@ -628,16 +628,7 @@ st.download_button(
 
     st.markdown("---")
 
-    # Camera / video
-    st.markdown("#### `st.camera_input()` + `st.video()`")
-    show_code("""# צילום מהמצלמה
-photo = st.camera_input("צלם תמונה")
-if photo:
-    st.image(photo)
 
-# הצגת וידאו
-st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-st.video("local_video.mp4")""")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
