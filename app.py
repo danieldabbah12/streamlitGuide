@@ -676,22 +676,26 @@ elif section == "🎨 עיצוב מתקדם":
 
     st.markdown("### ⚡שינוי רקע ,תודה מיוחדת לאיה ולשי!")
     
-    show_code( """
-        # Define your color
+     code_to_display = """
+    # Define your color
     bg_color = "#c2c395"
     
     # Inject CSS with markdown
     st.markdown(
-        f"""
+        f\"\"\"
         <style>
         .stApp {{
             background-color: {bg_color};
         }}
         </style>
-        """,
+        \"\"\",
         unsafe_allow_html=True
-    )"""
-)
+    )
+    """
+    
+    # הצגת הקוד באתר בתוך בלוק מעוצב
+    st.write("הנה הקוד לשינוי צבע הרקע:")
+    st.code(code_to_display, language='python')
   
 
 
