@@ -674,22 +674,22 @@ elif section == "🎨 עיצוב מתקדם":
     st.markdown("---")
 
 
-      st.markdown("### ⚡שינוי רקע ,תודה מיוחדת לאיה ולשי!")
+    st.markdown("### ⚡שינוי רקע ,תודה מיוחדת לאיה ולשי!")
 
-# Define your color
-bg_color = "#c2c395"
-
-# Inject CSS with markdown
-st.markdown(
-    f"""
-    <style>
-    .stApp {{
-        background-color: {bg_color};
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+    # Define your color
+    bg_color = "#c2c395"
+    
+    # Inject CSS with markdown
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-color: {bg_color};
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
 
 
