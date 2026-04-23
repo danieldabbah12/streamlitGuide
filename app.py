@@ -675,8 +675,7 @@ elif section == "🎨 עיצוב מתקדם":
 
 
     st.markdown("### ⚡שינוי רקע ,תודה מיוחדת לאיה ולשי!")
-
-    # Define your color
+    show_code(  # Define your color
     bg_color = "#c2c395"
     
     # Inject CSS with markdown
@@ -690,19 +689,15 @@ elif section == "🎨 עיצוב מתקדם":
         """,
         unsafe_allow_html=True
     )
+)
+  
 
 
 
 
 
     # Page config
-    st.markdown("#### `st.set_page_config()` — הגדרות עמוד")
-    show_code("""st.set_page_config(
-    page_title="שם האפליקציה",   # כותרת הטאב
-    page_icon="🚀",               # אייקון
-    layout="wide",               # "centered" / "wide"
-    initial_sidebar_state="expanded"  # "auto"/"expanded"/"collapsed"
-)
+    
 # ⚠️ חייב להיות השורה הראשונה בקוד!""")
 
     st.markdown("---")
