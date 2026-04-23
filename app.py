@@ -676,7 +676,7 @@ elif section == "🎨 עיצוב מתקדם":
 
     st.markdown("### ⚡שינוי רקע ,תודה מיוחדת לאיה ולשי!")
     
-     code_to_display = """
+    code_to_display = """
     # Define your color
     bg_color = "#c2c395"
     
